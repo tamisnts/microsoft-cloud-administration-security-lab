@@ -23,7 +23,7 @@ Construir um laboratorio pratico que demonstre, de forma documentada e organizad
 ## Estrutura do projeto
 
 docs/ - identity.md, rbac.md, networking.md, monitoring.md, governance.md, security.md, microsoft365.md, intune.md, troubleshooting.md, costs.md, conclusion.md, powershell/README.md
-scripts/
+scripts/ - Get-LabUsers.ps1, Get-LabGroups.ps1, Export-LabResourceReport.ps1
 diagrams/
 screenshots/
 
@@ -36,10 +36,10 @@ screenshots/
 | 2 | RBAC | Concluida |
 | 3 | VNet / Subnet / NSG | Concluida |
 | 4 | VM temporaria | Concluida |
-| 5 | Azure Monitor + Logs | Pendente |
-| 6 | Azure Policy | Pendente |
-| 7 | PowerShell | Pendente |
-| 8 | Documentacao final | Pendente |
+| 5 | Azure Monitor + Logs | Concluida |
+| 6 | Azure Policy | Concluida |
+| 7 | PowerShell | Concluida |
+| 8 | Documentacao final | Concluida |
 
 ## Custos e cuidados com creditos Azure
 
@@ -47,4 +47,4 @@ Este laboratorio usa Azure for Students. Antes de qualquer recurso com potencial
 
 ## Aprendizados principais
 
-(secao a ser preenchida ao final do projeto - ver docs/conclusion.md)
+Este laboratorio permitiu praticar, de ponta a ponta, o ciclo de administracao de um ambiente Microsoft Cloud: identidade (Entra ID), controle de acesso (RBAC), rede segura (VNet/NSG), computacao temporaria (VM), observabilidade (Monitor/Alertas), governanca (Policy/Tags) e automacao (PowerShell). Alem dos conceitos tecnicos, o processo reforcou habilidades de troubleshooting reais - identificar e corrigir erros de configuracao, interpretar mensagens de erro do terminal, e manter disciplina de controle de custos ao longo de todo o projeto. Ver docs/conclusion.md para a reflexao completa.
