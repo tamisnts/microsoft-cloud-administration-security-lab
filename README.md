@@ -35,7 +35,7 @@ screenshots/
 | 1 | Microsoft Entra ID | Concluida |
 | 2 | RBAC | Concluida |
 | 3 | VNet / Subnet / NSG | Concluida |
-| 4 | VM temporaria | Pendente |
+| 4 | VM temporaria | Concluida |
 | 5 | Azure Monitor + Logs | Pendente |
 | 6 | Azure Policy | Pendente |
 | 7 | PowerShell | Pendente |
